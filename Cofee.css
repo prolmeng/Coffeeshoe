@@ -1,0 +1,67 @@
+a {
+  text-decoration: none;
+  color: rgb(209, 0, 0);
+}
+.logo {
+  background-color: rgb(255, 255, 255);
+  font-weight: bold;
+  font-family: sans-serif;
+}
+.navbar {
+  padding: 1rem 0rem;
+  position: fixed;
+  width: 100%;
+  z-index: 1000;
+  background-color: rgb(255, 255, 255);
+  top: 0;
+  left: 0;
+  box-shadow: 0px 0px 20px 0px gray;
+}
+.hamburger {
+  border: none;
+}
+/* Main Section  */
+.main-section img {
+  height: 600px;
+  width: 500px;
+}
+.main-section img {
+  animation: MengHong 3s infinite;
+}
+@keyframes MengHong {
+  0% {
+    transform: translateY(-20px);
+  }
+  50% {
+    transform: translateY(70px);
+  }
+  100% {
+    transform: translateY(-20px);
+  }
+}
+
+/* Card cofee */
+.card img:hover {
+  transform: scale(0.9);
+  transition: 0.5s;
+  cursor: pointer;
+}
+.card1 img:hover {
+  transform: scale(0.8);
+  transition: 0.5s;
+  cursor: pointer;
+}
+/* Logo */
+.logo {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+}
+
+/* Icone */
+.icon-outline-warning {
+  color: #0d39b3; /* Bootstrap warning color */
+  border: 2px solid #7b7a77;
+  padding: 8px;
+  border-radius: 50%; /* Make the outline circular */
+}
